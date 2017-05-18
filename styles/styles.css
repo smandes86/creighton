@@ -4,8 +4,8 @@
 /*Can't @import this font from Google Fonts because Safari won't load it*/
 @font-face {
     font-family: 'arvoitalic';
-    src: url('../fonts/arvo/arvo-italic-webfont.woff2') format('woff2'),
-         url('../fonts/arvo/arvo-italic-webfont.woff') format('woff');
+    src: url('../creighton/fonts/arvo-bolditalic-webfont.woff2') format('woff2'),
+         url('../creighton/fonts/arvo-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
