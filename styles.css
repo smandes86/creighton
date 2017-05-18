@@ -1,0 +1,708 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+
+/*Can't @import this font from Google Fonts because Safari won't load it*/
+@font-face {
+    font-family: 'arvoitalic';
+    src: url('../fonts/arvo/arvo-italic-webfont.woff2') format('woff2'),
+         url('../fonts/arvo/arvo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*-----------
+General Styles
+-------------*/
+
+.blue-line{
+  display: block;
+  margin: 0;
+}
+
+.blue-line-centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.white-line-centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear{
+clear: both;
+}
+
+
+/*-----------
+Header Styles
+-------------*/
+.top-bar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.responsive-logo{
+  max-width: 100%;
+}
+
+.header-section{
+  background: url('http://s5.postimg.org/y1qm2bi1z/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 35px 0;
+}
+
+.hero-text{
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.hero-fee-text{
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.hero-text span{
+  color: #ffa300;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.tagline{
+  font-family: 'arvoitalic';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  text-align: right;
+  color: #069DD6;
+}
+
+.info-icon{
+  margin: -20px 15px 0 0;
+}
+
+.request-text{
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/***Form Styles***/
+.form-control {
+    height: 38px;
+}
+
+.submit-btn {
+  background-color: #ffa300;
+  color: #222222;
+  border: 0;
+  width: 70%;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 16px;
+  transition: all .3s ease;
+  float:right;
+  white-space:normal;
+}
+
+.next-btn{
+  background-color: #ffa300;
+  color: #222222;
+  border: 0;
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 16px;
+  transition: all .3s ease;
+  float:right;
+  white-space:normal;
+
+}
+
+.back-btn {
+  background:none;
+  color: #fff;
+  border: 0;
+  width: 20%;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 16px;
+  transition: all .3s ease;
+  float:left;
+  white-space:normal;
+
+
+}
+
+.submit-btn .next-btn:hover{
+  background-color: #ef9901;
+}
+
+.submit-btn .next-btn:active{
+  background-color: #ef9901;
+}
+
+
+/*-----------
+Section 2 Styles
+-------------*/
+.section2{
+  background:url('http://s5.postimg.org/x78nu0zl3/section2-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 0 35px;
+  font-size: 18px;
+}
+
+.section2-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 33px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section2-text{
+  margin-top: 25px;
+}
+
+.fact-box{
+  /*background-color: rgba(255, 219, 130, 0.8);*/
+  /*padding: 55px 20px;*/
+  margin-top: 90px;
+}
+
+.responsive-salary{
+  max-width: 100%;
+}
+
+.responsive-salary-mobile{
+	display: none;
+}
+
+
+/*-----------
+Section 3 Styles
+-------------*/
+.section3{
+  padding: 15px 0 35px;
+  font-size: 18px;
+}
+
+.section3-title1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 33px;
+  text-transform: uppercase;
+}
+
+.section3-courses{
+	margin: 25px 0;
+}
+
+.section3-courses p{
+	font-size: 16px;
+}
+
+/*Icons*/
+.section3-courses img{
+	margin-right: .5em !important;
+  padding-top: 5px !important;
+	color: #019cdb;
+}
+
+.section3-title2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 33px;
+  text-transform: uppercase;
+}
+
+.section3-about-text{
+  margin-top: 25px;
+}
+
+.section3-learn-text{
+  margin-top: 25px;
+}
+
+.section3-learn-text2{
+	margin-top: 25px;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+.check-icon{
+	font-size: 21px !important;
+	color: #019cdb;
+}
+
+
+.section3-learn-text2 li {
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
+    text-indent: -30px;
+}
+
+
+.section3 .blue-line-centered{
+	display: none;
+}
+
+
+/*-----------
+Section 4 Styles
+-------------*/
+.section4{
+  background:url('http://s5.postimg.org/82hngm04n/section4-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 0 35px;
+  color: #fff;
+  text-align: center;
+}
+
+.section4-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 33px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.circle-img {
+    padding: 20px;
+}
+
+.circle-img img{
+	display: block;
+	margin: 0 auto;
+}
+
+.circle-title1{
+	color: #ffcc4f;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.circle-text1{
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+.circle-title2{
+	color: #ffcc4f;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.circle-text2{
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+.circle-title3{
+	color: #ffcc4f;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.circle-text3{
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+.circle-title4{
+	color: #ffcc4f;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.circle-text4{
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+
+/*-----------
+Section 5 Styles
+-------------*/
+.section5{
+  padding: 35px 0 35px;
+}
+
+.accolades-text2{
+	font-size: 18px;
+}
+
+.accolades-text3{
+  text-align: left;
+  padding-left: 15px;
+}
+
+.accolades-text3 li{
+  margin-bottom: 5px;
+}
+
+.military-logo{
+	display: block;
+	margin: 0 auto;
+}
+
+.rankings-logo{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*-----------
+Section 6 Styles
+-------------*/
+.section6{
+  padding: 35px 0 35px;
+  background-color: #5d6468;
+  color: #fff;
+}
+
+.section6-text{
+	font-size: 35px;
+}
+
+.request-btn{
+  background-color: #ffa300;
+  color: #222222;
+  border: 0;
+  width: 185px;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 15px 16px;
+  transition: all .3s ease;
+  float: right;
+}
+
+.request-btn:hover{
+  background-color: #ef9901;
+}
+
+.request-btn:active{
+  background-color: #ef9901;
+}
+
+
+/*-----------
+Footer Styles
+-------------*/
+.footer{
+  padding: 30px 0 15px;
+  background-color: #0054a6;
+  color: #fff;
+}
+
+.footer-text{
+	font-size: 12px;
+}
+
+.footer-links{
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer-links a{
+	color: #fff;
+	font-size: 9px;
+}
+
+.footer-links a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.copyright{
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+
+
+/*-----------
+Media Queries
+-------------*/
+
+/*Bootstrap Container / Desktop */
+@media all and (max-width: 1199px){
+
+	/*Form*/
+	.submit-btn{
+		font-size: 16px;
+	}
+
+	  /*Section3*/
+  	.section3-courses p {
+    width: 74%;
+    display: block;
+    float: left;
+}
+
+}
+
+/*Bootstrap Breakpoint - Tablet Landscape*/
+@media all and (max-width: 991px){
+
+  /*Top and Header*/
+  .tagline{
+    font-size: 20px;
+  }
+  .request-text{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .info-icon {
+    margin: -15px 10px 0 0;
+    width: 35px;
+  }
+
+  .hero-text{
+    font-size: 21px;
+  }
+    .hero-text span{
+      font-size: 26px;
+    }
+
+  .hero-fee-text{
+    font-size: 18px;
+  }
+
+
+  /*Section2*/
+
+	.fact-box{
+    margin-top: 25px;
+  }
+
+
+  /*Section6*/
+  .section6-text{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .request-btn{
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+
+}
+
+/*Tablets and smaller*/
+@media all and (max-width: 767px){
+
+	/*Top Bar*/
+	.responsive-logo{
+		display: block;
+		margin: 0 auto;
+	}
+	.tagline{
+		text-align: center;
+    font-size: 18px;
+	}
+
+
+	/*Header*/
+	.hero-text{
+		display: none;
+	}
+
+	.hero-fee-text{
+		display: none;
+	}
+
+
+	/*Section3*/
+	.section3-title1{
+		text-align: center;
+	}
+
+	.section3-title2{
+		text-align: center;
+	}
+
+	.blue-line{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	/*Section5*/
+	.military-logo{
+	  margin-bottom: 15px;
+	}
+
+	.rankings-logo{
+	  margin-bottom: 15px;
+	}
+
+	.accolades-text1{
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+
+	/*Footer*/
+
+	.footer{
+	  text-align: center;
+	}
+	.footer-logo{
+	  margin: 0 auto;
+	  width: 140px;
+	}
+	.copyright{
+	  margin-top: 30px;
+	  margin-bottom: 25px;
+	}
+}
+
+
+/*Mobile and smaller*/
+@media all and (max-width: 460px){
+
+	/*Top Bar*/
+	.top-bar{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.responsive-logo{
+		width: 140px;
+	}
+	.tagline{
+		font-size: 14px;
+	}
+
+
+	/*Header*/
+	.info-icon{
+		width: 32px;
+		margin: -10px 12px 0 0;
+	}
+
+		/*Form*/
+	.submit-btn{
+		font-size: 15px;
+	}
+
+
+	/*Section2*/
+	.section2-title{
+		font-size: 28px;
+	}
+
+  .fact-box img{
+    max-width: 100%;
+  }
+
+
+	/*Section3*/
+	.section3-title1{
+		font-size: 28px;
+	}
+
+	.section3-title2{
+		font-size: 28px;
+	}
+
+	.section3-courses p {
+    display: block;
+    float: right;
+    width: 62%;
+  }
+
+  .section3-learn-text2 {
+    padding-left: 20px;
+  }
+
+
+	/*Section4*/
+	.section4-title{
+		font-size: 28px;
+	}
+
+	.circle-img img {
+		width: 140px;
+		margin-top: 45px;
+	}
+
+	.circle-img {
+		padding: 0 21px;
+	}
+
+
+	/*Section6*/
+	.section6-text{
+		font-size: 21px;
+	}
+
+	.request-btn{
+		float: none;
+		font-size: 16px;
+	}
+
+
+	/*Footer*/
+	.footer-logo{
+		width: 140px;
+	}
+
+
+/*Tiny Screens - iPhone5S and smaller*/
+@media all and (max-width: 360px){
+
+  /*Top Bar*/
+  .tagline{
+  	font-size: 12px;
+  }
+
+  /*Header*/
+	.request-text{
+		font-size: 20px;
+	}
+
+	.info-icon{
+		width: 28px;
+		margin: -8px 12px 0 0;
+	}
+
+	/*Form*/
+	.submit-btn{
+		font-size: 13px;
+	}
+}
+
+
+
+
+
+.responsive-salary{
+	display: none;
+}
+.responsive-salary-mobile{
+	display: inline;
+	max-width: 100%;
+}
+
+}
